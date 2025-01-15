@@ -17,28 +17,62 @@
     <header>
         <div class="container">
             <h1>Starlit Distributors</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
-                <a href="products.html">Products</a>
-                <a href="contact.html">Contact</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <section class="content">
-        <h3>Contact Us</h3>
-        <p>We'd love to hear from you! Reach out to us via the following methods:</p>
-        <ul>
-            <li>Phone: 876-221-5430</li>
-            <li>Email: starlitlightingdistributors@gmail.com</li>
-            <li>Address: 4 Westminister Rd, Kingston 10, Jamaica</li>
-        </ul>
+    <section class="content py-5">
+        <div class="container">
+            <h3 class="text-center">Contact Us</h3>
+            <p class="text-center">We'd love to hear from you! Get in touch with us using any of the following methods:</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Details</h5>
+                    <ul>
+                        <li>Phone: 876-221-5430</li>
+                        <li>Email: starlitlightingdistributors@gmail.com</li>
+                        <li>Address: 4 Westminister Rd, Kingston 10, Jamaica</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Send Us a Message</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Starlit Distributors. All rights reserved.</p>
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p>&copy; 2025 Starlit Distributors. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
