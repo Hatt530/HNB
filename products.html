@@ -4,102 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="products.html" class="active">Products</a></li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h1>Our Products</h1>
-        <div class="products-container">
-            <aside class="categories">
-                <h2>Categories</h2>
-                <ul>
-                    <li><a href="#footwear">Footwear</a></li>
-                    <li><a href="#safety">Safety Gear</a></li>
-                    <li><a href="#clothing">Clothing</a></li>
-                    <li><a href="#tools">Tools</a></li>
-                    <li><a href="#accessories">Accessories</a></li>
+    <div class="container">
+        <header class="mt-3">
+            <h1>Our Products</h1>
+        </header>
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-md-3">
+                <h4>Categories</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Footwear</a></li>
+                    <li class="list-group-item"><a href="#">Hi-Vis Clothing</a></li>
+                    <li class="list-group-item"><a href="#">Lighting</a></li>
+                    <li class="list-group-item"><a href="#">Gloves</a></li>
+                    <li class="list-group-item"><a href="#">Safety Equipment</a></li>
+                    <li class="list-group-item"><a href="#">Miscellaneous</a></li>
                 </ul>
             </aside>
 
-            <section class="products-list">
-                <div id="footwear" class="category">
-                    <h2>Footwear</h2>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Caterpillar Men's Second Shift Steel Toe Work Boot">
-                        <p>Caterpillar Men's Second Shift Steel Toe Work Boot</p>
+            <!-- Main content -->
+            <section class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="thisisengineering-uxnaFnZBjhk-unsplash.jpg" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">Caterpillar Steel Toe Boot</h5>
+                                <p class="card-text">Durable work boot for heavy-duty tasks.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Men's Outline Steel Toe Work Boot">
-                        <p>Men's Outline Steel Toe Work Boot</p>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="thisisengineering-uxnaFnZBjhk-unsplash.jpg" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">Hi-Vis Polo Shirt</h5>
+                                <p class="card-text">Enhanced visibility clothing for safety.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <div id="safety" class="category">
-                    <h2>Safety Gear</h2>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="3-Point Harness">
-                        <p>3-Point Harness</p>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="thisisengineering-uxnaFnZBjhk-unsplash.jpg" class="card-img-top" alt="Product">
+                            <div class="card-body">
+                                <h5 class="card-title">Lens Cleaning Station</h5>
+                                <p class="card-text">Keep your safety glasses clean and clear.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Hi-Vis Polo Shirt">
-                        <p>Hi-Vis Polo Shirt</p>
-                    </div>
-                </div>
-
-                <div id="clothing" class="category">
-                    <h2>Clothing</h2>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Hi-Vis T-Shirt">
-                        <p>Hi-Vis T-Shirt</p>
-                    </div>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Two-Tone Cotton Comfort Polo">
-                        <p>Two-Tone Cotton Comfort Polo</p>
-                    </div>
-                </div>
-
-                <div id="tools" class="category">
-                    <h2>Tools</h2>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Flashlight">
-                        <p>Flashlight</p>
-                    </div>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Lens Cleaning Station">
-                        <p>Lens Cleaning Station</p>
-                    </div>
-                </div>
-
-                <div id="accessories" class="category">
-                    <h2>Accessories</h2>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Coat Skin Leather Protectors">
-                        <p>Coat Skin Leather Protectors</p>
-                    </div>
-                    <div class="product">
-                        <img src="/mnt/data/Screenshot 2025-01-16 10.47.09 PM.png" alt="Electrical Insulating Gloves Class 0">
-                        <p>Electrical Insulating Gloves Class 0</p>
-                    </div>
+                    <!-- Add more products here -->
                 </div>
             </section>
         </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
-    </footer>
-
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
