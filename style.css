@@ -75,6 +75,35 @@ header nav a {
     font-weight: bold;
 }
 
+/* Featured Products Carousel */
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .item {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .col-xs-6 {
+    width: 50%;
+    padding: 10px;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Hero Section */
 .hero {
-    text
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
