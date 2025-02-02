@@ -81,12 +81,7 @@ header nav a {
     margin-bottom: 1em;
 }
 
-footer {
-    background-color: #002c4d;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
+
 
 /* General Reset */
 html, body {
