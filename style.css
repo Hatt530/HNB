@@ -53,8 +53,8 @@ footer {
 /* Carousel Image Styling */
 .carousel-item img {
     width: 100%;               /* Ensure images take full width */
-    max-height: 400px;         /* Ensures all images have the same height */
-    object-fit: cover;         /* Makes sure the image covers the space without distortion */
+    height: 400px;             /* Fixed height for uniformity */
+    object-fit: cover;         /* Ensures images are not stretched/distorted */
 }
 
 /* Fixing carousel shift issue */
@@ -67,16 +67,11 @@ footer {
     flex: 0 0 auto;
 }
 
-/* Carousel Indicator Styling */
-.carousel-indicators li {
-    background-color: #007bff;
-}
-
-/* Featured Products Section */
+/* Featured Products Section Images */
 #featuredProductsCarousel .carousel-item img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
+    width: 100%;               /* Full width */
+    height: 300px;             /* Fixed height */
+    object-fit: cover;         /* Ensures images maintain aspect ratio without distortion */
 }
 
 /* Section Titles */
@@ -122,4 +117,3 @@ a:hover {
 .mt-4 {
     margin-top: 1.5rem;
 }
-
