@@ -9,42 +9,9 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!--auto compiled css & Js-->
-    <script type="text/javascript"
-            src="//code.jquery.com/jquery-1.9.1.js">
-    </script>
-    <link rel="stylesheet"
-        type="text/css"
-        href="/css/result-light.css">
-     
-    <script type="text/javascript"
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-    </script>
-    <link rel="stylesheet"
-        type="text/css"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet"
-        type="text/css"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- JavaScript for adding
-    slider for multiple images
-    shown at once-->
-    <script type="text/javascript">
-        $(window).load(function() {
-            $(".carousel .item").each(function() {
-                var i = $(this).next();
-                i.length || (i = $(this).siblings(":first")),
-                i.children(":first-child").clone().appendTo($(this));
-                 
-                for (var n = 0; n < 4; n++)(i = i.next()).length ||
-                (i = $(this).siblings(":first")),
-                i.children(":first-child").clone().appendTo($(this))
-            })
-        });
-    </script>
 </head>    
 <body>
-
+    <!-- Page Content -->
     <div class="top-bar">
         <div class="container">
             <span>Location: 4 Westminister Rd, Kingston 10, Jamaica | Phone: 876-221-5430 | Email: starlitlightingdistributors@gmail.com</span>
@@ -70,107 +37,21 @@
             </nav>
         </div>
     </header>
-
     
     <div class="container">
         <h1 class="text-center my-4">Our Products</h1>
 
         <!-- Categories in Center with Expandable Sections -->
         <div class="accordion" id="productCategories">
-
-            <!-- Tools & Electrical Equipment -->
-            <div class="card">
-                <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne">
-                            Tools & Electrical Equipment
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseOne" class="collapse" data-parent="#productCategories">
-                    <div class="card-body text-center">
-                        <img src="Tools & Electrical Equipment.jpeg" class="img-fluid" alt="Tools & Electrical Equipment">
-                        <p>Includes drills, saws, wiring tools, and more.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hardware Supplies -->
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo">
-                            Hardware Supplies
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" data-parent="#productCategories">
-                    <div class="card-body text-center">
-                        <img src="hardwaresupply.jpeg" class="img-fluid" alt="Hardware Supplies">
-                        <p>Includes screws, nails, locks, and hinges.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Medical Equipment -->
-            <div class="card">
-                <div class="card-header" id="headingThree">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree">
-                            Medical Equipment
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseThree" class="collapse" data-parent="#productCategories">
-                    <div class="card-body text-center">
-                        <img src="Medical Equipment.jpeg" class="img-fluid" alt="Medical Equipment">
-                        <p>Includes gloves, masks, thermometers, and stretchers.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Office Furniture & Equipment -->
-            <div class="card">
-                <div class="card-header" id="headingFour">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour">
-                            Office Furniture & Equipment
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseFour" class="collapse" data-parent="#productCategories">
-                    <div class="card-body text-center">
-                        <img src="Office Furniture & Equipment.jpeg" class="img-fluid" alt="Office Furniture & Equipment">
-                        <p>Includes desks, chairs, cabinets, and safes.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Cleaning Equipment & Supplies -->
-            <div class="card">
-                <div class="card-header" id="headingFive">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive">
-                            Cleaning Equipment & Supplies
-                        </button>
-                    </h2>
-                </div>
-                <div id="collapseFive" class="collapse" data-parent="#productCategories">
-                    <div class="card-body text-center">
-                        <img src="Cleaning Equipment & Supplies.jpeg" class="img-fluid" alt="Cleaning Equipment & Supplies">
-                        <p>Includes mops, brooms, disinfectants, and cleaning tools.</p>
-                    </div>
-                </div>
-            </div>
-
+            <!-- Product cards here -->
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="bg-dark text-white py-3">
         <div class="container text-center">
             <p>&copy; 2025 Starlit Distributors. All rights reserved.</p>
         </div>
     </footer>
-
 </body>
 </html>
