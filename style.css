@@ -21,7 +21,7 @@ body {
 
 /* Make content area flexible to push the footer down */
 .container {
-    flex: 1;
+    flex-grow: 1;
 }
 
 /* Navbar Styling */
