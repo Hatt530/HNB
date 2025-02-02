@@ -77,19 +77,4 @@ header nav a {
 
 /* Hero Section */
 .hero {
-    text-align: center;
-    padding: 4em 1em;
-    background-color: #f4f4f4;
-}
-
-.hero img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 2em;
-}
-
-.content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1em;
-}
+    text
