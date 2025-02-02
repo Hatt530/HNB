@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Home</title>
+<title>Contacts</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="styles.css">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -47,7 +47,7 @@
     </script>
 </head>
     
-    <body>
+<body>
     <div class="top-bar">
         <div class="container">
             <span>Location: 4 Westminister Rd, Kingston 10, Jamaica | Phone: 876-221-5430 | Email: starlitlightingdistributors@gmail.com</span>
@@ -84,7 +84,8 @@
             <p><strong>Phone:</strong> <a href="tel:+18768686780">+1 234-567-890</a></p>
             <p><strong>WhatsApp:</strong> <a href="https://wa.me/1234567890" target="_blank">Chat on WhatsApp</a></p>
 
-            <form action="send_email.php" method="post" id="contactForm">
+            <!-- Updated Contact Form with Formspree Integration -->
+            <form action="https://formspree.io/f/mpwqrjyb" method="POST" id="contactForm">
                 <div class="form-group">
                     <label for="name">Full Name:</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -115,7 +116,7 @@
                 const formData = $(this).serialize();
                 
                 $.ajax({
-                    url: 'send_email.php',
+                    url: 'https://formspree.io/f/mpwqrjyb',
                     type: 'POST',
                     data: formData,
                     success: function(response) {
