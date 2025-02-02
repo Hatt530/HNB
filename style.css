@@ -1,47 +1,20 @@
-/* General Reset */
+/* Reset and Base Styles */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-/* Flexbox Layout for Body */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
     font-family: Arial, sans-serif;
 }
 
-/* Main content area */
-.container {
-    flex-grow: 1;
-    margin: 0;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #343a40;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-    margin-top: auto; /* This ensures the footer stays at the bottom */
-    width: 100%; /* Ensure full width */
-}
-
-/* Top Bar Styling */
+/* Top Bar */
 .top-bar {
-    background-color: #fff;
+    background-color: #f8f9fa;
     color: #000;
     padding: 5px 0;
     font-size: 14px;
 }
 
-/* Navbar Styling */
-.navbar {
-    background-color: #f8f9fa;
-}
-
+/* Navigation Bar */
 .navbar-nav .nav-item .nav-link {
     color: #000;
 }
@@ -50,48 +23,30 @@ footer {
     color: #007bff;
 }
 
-/* Ensure the images have equal sizes */
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.carousel-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px; /* Fixed height for uniformity */
-}
-
+/* Carousel Styling */
 .carousel-item img {
     width: 100%;
-    height: 100%;            /* Force images to stretch to fill height */
-    object-fit: cover;       /* Ensures images cover the space without distortion */
+    height: 400px; 
+    object-fit: cover; 
 }
 
-/* Featured Products Section */
-#featuredProductsCarousel .carousel-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 300px;            /* Fixed height for uniformity */
-}
-
+/* Featured Products Carousel */
 #featuredProductsCarousel .carousel-item img {
-    width: 48%;               /* Slightly less than half to allow space for multiple images */
-    height: 100%;             /* Stretch image to fill the fixed height */
-    object-fit: cover;        /* Ensures images fill space without stretching */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
-/* Section Titles */
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto;
 }
 
-/* Button Styling */
+/* Buttons */
 .btn-primary {
     background-color: #007bff;
     border: none;
@@ -99,31 +54,4 @@ h3 {
 
 .btn-primary:hover {
     background-color: #0056b3;
-}
-
-/* Link Styling for WhatsApp Button */
-a {
-    color: #007bff;
-}
-
-a:hover {
-    color: #0056b3;
-}
-
-/* Additional Styles for Section Text */
-.text-center {
-    text-align: center;
-}
-
-.mb-4 {
-    margin-bottom: 1.5rem;
-}
-
-.my-4 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-    margin-top: 1.5rem;
 }
