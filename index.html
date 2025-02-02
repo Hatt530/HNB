@@ -10,105 +10,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <style>
-        /* General Reset */
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Flexbox Layout for Body */
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100%;
-            font-family: Arial, sans-serif;
-        }
-
-        /* Main content area */
-        .container {
-            flex-grow: 1;
-            margin: 0;
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #343a40;
-            color: white;
-            padding: 15px 0;
-            text-align: center;
-            margin-top: auto; /* This ensures the footer stays at the bottom */
-            width: 100%; /* Ensure full width */
-        }
-
-        /* Top Bar Styling */
-        .top-bar {
-            background-color: #fff;
-            color: #000;
-            padding: 5px 0;
-            font-size: 14px;
-        }
-
-        /* Grid Styling for Images */
-        .image-gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
-            gap: 15px;
-            margin-top: 30px;
-        }
-
-        .image-gallery img {
-            width: 100%; /* Make images fill their container */
-            height: 300px; /* Fixed height for all images */
-            object-fit: cover; /* Ensures the image fills the container without distortion */
-            object-position: center; /* Centers the image */
-        }
-
-        /* Section Titles */
-        h3 {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 30px;
-        }
-
-        /* Button Styling */
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-        }
-
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-
-        /* Link Styling for WhatsApp Button */
-        a {
-            color: #007bff;
-        }
-
-        a:hover {
-            color: #0056b3;
-        }
-
-        /* Additional Styles for Section Text */
-        .text-center {
-            text-align: center;
-        }
-
-        .mb-4 {
-            margin-bottom: 1.5rem;
-        }
-
-        .my-4 {
-            margin-top: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .mt-4 {
-            margin-top: 1.5rem;
-        }
-    </style>
+    <!-- Auto compiled CSS & JS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -143,15 +50,29 @@
         <div class="container">
             <h3 class="text-center">Welcome to Starlit Distributors!</h3>
 
-            <!-- Image Gallery Section -->
-            <div class="image-gallery">
-                <img src="welding.jpg" alt="Welding">
-                <img src="constructionsite.jpg" alt="Construction Site">
-                <img src="constructionsite2.jpg" alt="Construction Site 2">
-                <img src="eye protection.jpeg" alt="Eye Protection">
-                <img src="tool.jpg" alt="Drills">
-                <img src="saw.jpeg" alt="Saw">
-                <img src="drills.jpeg" alt="Drills">
+            <!-- Featured Products Section -->
+            <h3 class="text-center mb-4">Featured Product Categories</h3>
+            <div class="featured-products">
+                <div class="featured-product">
+                    <img src="eye protection.jpeg" alt="Eye Protection">
+                    <h5>Eye Protection</h5>
+                    <p>Durable eye protection for a safe working environment.</p>
+                </div>
+                <div class="featured-product">
+                    <img src="tool.jpg" alt="Drills">
+                    <h5>Drills</h5>
+                    <p>High-quality drills for various industrial applications.</p>
+                </div>
+                <div class="featured-product">
+                    <img src="saw.jpeg" alt="Saw">
+                    <h5>Saw</h5>
+                    <p>Precision saws for cutting through tough materials.</p>
+                </div>
+                <div class="featured-product">
+                    <img src="drills.jpeg" alt="Drills">
+                    <h5>Power Drills</h5>
+                    <p>Efficient power drills for every project.</p>
+                </div>
             </div>
 
             <p class="text-center mt-4">Explore our wide range of quality products. From lighting solutions to innovative accessories, we’ve got something for everyone.</p>
