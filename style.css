@@ -7,7 +7,7 @@ html, body {
 }
 
 #mainCarousel {
-    max-height: 320px; /* Slightly larger than image height */
+    max-height: 200px; /* Slightly larger than image height */
     overflow: hidden;
 }
 
