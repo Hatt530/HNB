@@ -81,19 +81,21 @@ header nav a {
     justify-content: center;
 }
 
-.carousel .item {
+.carousel-item {
     display: flex;
     justify-content: center;
+    max-height: 400px;
 }
 
-.carousel .col-xs-6 {
-    width: 50%;
+.carousel .col-md-6 {
     padding: 10px;
 }
 
 .carousel img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    max-height: 300px;
+    object-fit: cover;
 }
 
 /* Hero Section */
