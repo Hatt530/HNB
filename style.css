@@ -5,56 +5,42 @@ html, body {
     padding: 0;
 }
 
-/* Ensure the page takes up full height */
-html {
+/* Flexbox Layout for Body */
+body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-/* Flex the body to make sure the footer stays at the bottom */
-body {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Make content area flexible to push the footer down */
+/* Main content area */
 .container {
     flex-grow: 1;
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: auto; /* This ensures the footer stays at the bottom */
+    width: 100%; /* Ensure full width */
+}
+
+/* Top Bar Styling */
+.top-bar {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 0;
+    font-size: 14px;
 }
 
 /* Navbar Styling */
 .navbar {
     background-color: #f8f9fa;
     padding: 10px 0;
-}
-
-/* Top Bar Styling */
-.top-bar {
-    background-color: white;
-    color: #002c4d;
-    font-size: 0.9em;
-    padding: 0.5em 0;
-}
-
-.top-bar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 1em;
-}
-
-.top-bar a {
-    color: #002c4d;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.top-bar a:hover {
-    text-decoration: underline;
 }
 
 /* Header Styling */
@@ -64,7 +50,12 @@ header {
     padding: 1em 0;
 }
 
-header .container {
+/* Ensuring the content takes all available space */
+main {
+    flex-grow: 1;
+}
+
+.top-bar .container, header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +75,7 @@ header nav a {
     font-weight: bold;
 }
 
-/* Hero Section Styling */
+/* Hero Section */
 .hero {
     text-align: center;
     padding: 4em 1em;
@@ -97,70 +88,8 @@ header nav a {
     margin-bottom: 2em;
 }
 
-/* Content Section Styling */
-.content {
-    max-width: 1200px;
-    margin: auto;
-    padding: 2em 1em;
-}
-
 .content img {
     max-width: 100%;
     height: auto;
     margin-bottom: 1em;
-}
-
-/* Footer Styling */
-footer {
-    margin-top: auto;
-    background-color: #343a40;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-}
-
-/* Footer Links Styling (Optional) */
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Specific for Product Page */
-footer p {
-    margin: 0;
-}
-
-/* Make sure everything is spaced well and has correct margins */
-main {
-    flex-grow: 1;
-}
-
-/* Additional Mobile Responsiveness (if needed) */
-@media (max-width: 768px) {
-    .top-bar .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    header .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    header nav {
-        flex-direction: column;
-        gap: 0.5em;
-    }
-
-    .hero {
-        padding: 2em 1em;
-    }
-
-    .content {
-        padding: 1.5em;
-    }
 }
