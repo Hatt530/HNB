@@ -40,9 +40,9 @@ html, body {
 }
 
 /* Footer */
-footer {
-    background-color: #343a40;
-    color: white;
+body footer {
+    background-color: #343a40 !important;
+    color: white !important;
     padding: 15px 0;
     text-align: center;
 }
