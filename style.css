@@ -39,10 +39,19 @@ html, body {
     object-fit: cover;
 }
 
+/* Product Images */
+.card-body img.product-img {
+    width: 100%; /* Makes the image take full width of the container */
+    max-width: 300px; /* Adjust width */
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    margin: 10px 0; /* Adds space between images */
+}
+
 /* Footer */
-body footer {
-    background-color: #343a40 !important;
-    color: white !important;
+footer {
+    background-color: #343a40;
+    color: white;
     padding: 15px 0;
     text-align: center;
 }
