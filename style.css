@@ -49,7 +49,7 @@ html, body {
 
 /* Product Images */
 .card-body .product-img {
-    width: 150px !important; /* Fixed width for all images */
+    width: 50px !important; /* Fixed width for all images */
     height: 150px !important; /* Fixed height for all images */
     object-fit: cover !important; /* Ensures the image covers the container while maintaining aspect ratio */
     margin: 15px !important; /* Adds space between images */
