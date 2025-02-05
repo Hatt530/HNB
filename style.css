@@ -48,11 +48,25 @@ html, body {
 }
 
 /* Product Images */
-.product-img {
-    width: 150px; /* Fixed width for all images */
-    height: 150px; /* Fixed height for all images */
-    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
-    margin: 15px; /* Adds space between images */
+.card-body .product-img {
+    width: 150px !important; /* Fixed width for all images */
+    height: 150px !important; /* Fixed height for all images */
+    object-fit: cover !important; /* Ensures the image covers the container while maintaining aspect ratio */
+    margin: 15px !important; /* Adds space between images */
 }
 
-/* Container for prod
+/* Container for product images */
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
