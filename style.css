@@ -50,8 +50,8 @@ html, body {
 /* Product Images */
 .product-img {
     width: 100%; /* Ensures the image fills its container */
-    max-width: 300px; /* Limits the maximum width */
-    height: 250px; /* Sets a fixed height */
+    max-width: 250px; /* Limits the maximum width */
+    height: 200px; /* Sets a fixed height */
     object-fit: cover; /* Crops the image to maintain aspect ratio */
     margin: 10px 0; /* Adds space between images */
 }
