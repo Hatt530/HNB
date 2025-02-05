@@ -49,24 +49,10 @@ html, body {
 
 /* Product Images */
 .product-img {
-    width: 80px; /* Fixed width for all images */
-    height: 80px; /* Fixed height for all images */
-    object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
-    margin: 10px; /* Adds space between images */
+    width: 150px; /* Fixed width for all images */
+    height: 150px; /* Fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    margin: 15px; /* Adds space between images */
 }
 
-/* Container for product images */
-.card-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Footer */
-footer {
-    background-color: #343a40;
-    color: white;
-    padding: 15px 0;
-    text-align: center;
-}
+/* Container for prod
