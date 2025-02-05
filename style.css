@@ -34,7 +34,7 @@ html, body {
 
 /* Logo Styling */
 .logo {
-    width: 30px;
+    width: 150px; /* Adjusted to a reasonable size */
     height: auto;
     display: block;
     margin: 20px auto;
@@ -62,8 +62,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
-
-
 
 /* Footer */
 footer {
